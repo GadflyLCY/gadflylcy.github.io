@@ -101,6 +101,9 @@ h6 code {
   -webkit-flex: 1 auto;
   -ms-flex: 1 auto;
   flex: 1 auto;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
 }
 * {
   -webkit-box-sizing: border-box;
